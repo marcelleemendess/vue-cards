@@ -1,0 +1,63 @@
+
+//App component
+main {
+    width: 100vw;
+    min-height: 100vh;
+    overflow: hidden;
+    background-color: #EEE;
+
+    display: flex;
+    justify-content:center;
+    align-items:center; 
+
+    .products {
+        display: flex;
+        max-width: 80rem; //1280px
+        padding: 1.5rem;
+        margin: 0 auto;
+    }
+}
+
+//ProductComponent
+
+.product {
+    flex: 1 1 33,333%;
+    width: 100%;
+    padding: 1.5rem;
+
+    .product-inner {
+        position: relative;
+        padding: 1.5rem;
+        box-shadow:  0px 0px 16px  rgba(0,0,0,0.25);
+    
+        // &--.green {
+        //     background-image: linear-gradient(to bottom right, #24d484, #116432);
+        // }
+
+        // &--.blue {
+        //     background-image: linear-gradient(to bottom left, #24d484, #2474c4 70%);
+        // }
+
+        // &--.pink {
+        //     background-image: linear-gradient(to bottom right, #f444a4, #1168d4);
+        // }
+
+        .image {
+            width: 100%;
+        }
+        
+        .product-text-wrap {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 0;
+            overflow: hidden;
+        }
+       
+        
+   
+    }
+    
+}
