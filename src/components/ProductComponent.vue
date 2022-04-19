@@ -1,6 +1,6 @@
 <template>
   <div class="product">
-    <div :class="'product-inner' + product.color">
+    <div class="product-inner">
       <div class="product-text-wrap">
         <h2 class="bg-text">{{ product.bgtext }}</h2>
       </div>
