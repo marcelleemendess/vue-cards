@@ -42,6 +42,27 @@ export default {
           bgtext: "MAX",
           src: require("./assets/img/pink-shoe.png"),
         },
+        {
+          id: 4,
+          title: "Nike Roche Runs",
+          color: "pink",
+          bgtext: "MAX",
+          src: require("./assets/img/pink-shoe.png"),
+        },
+        {
+          id: 5,
+          title: "Nike Roche Runs",
+          color: "pink",
+          bgtext: "MAX",
+          src: require("./assets/img/pink-shoe.png"),
+        },
+        {
+          id: 1,
+          title: "Nike Air Max",
+          color: "green",
+          bgtext: "NIKE",
+          src: require("./assets/img/green-shoe.png"),
+        },
       ],
     };
   },
